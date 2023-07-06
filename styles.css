@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    width: 100vw;
+    height: 100vh;
+    background-color:grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(41, 59, 75);
+}
+
+.chartHolder {
+    background-color: white;
+    height: 710px;
+    width: 980px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0,0.4);
+    text-align: center;
+}
+
+.chartHolder h1 {
+   margin-top: 4px; 
+   text-align: center;
+   font-weight: 900;
+}
+
+#description {
+    margin-bottom: 5px;
+}
+
+
+.chart {
+   display: flex;
+   font-size: 5.5pt;
+   font-weight: 600;
+   justify-content: center;
+}
+
+
+#tooltip {
+    height: auto;
+    width: auto;
+    margin: auto;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-small;
+    text-decoration: solid;  
+    font-weight: bolder;
+    border-radius: 6px; 
+    border: solid 1px gray;
+
+}
+
+rect:hover {
+    fill: rgb(219, 232, 244);
+}
